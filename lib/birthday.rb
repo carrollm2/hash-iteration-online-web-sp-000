@@ -11,10 +11,4 @@ def happy_birthday(birthday_kids)
 end
 
 
-def select_winner(birthday_kids)
-  birthday_kids.each do |kids_name, age|
-    if kids_name.start_with?("A")
-      return kids_name
-    end
-  end
-end
+
